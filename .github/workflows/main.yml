@@ -49,7 +49,7 @@ jobs:
               tail -100 hello.txt
               git status
               git config --local user.name "Monikrishna2288"
-              git add ./docs
+              git add /home/runner/work/rock-paper-scissors/rock-paper-scissors/hello.txt
               git commit -m "Updating the repository GitHub html pages in the docs folder
               
       - name: Push changes # push the output folder to your repo
