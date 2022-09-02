@@ -47,3 +47,4 @@ jobs:
               cd ..
               cat > /home/runner/work/rock-paper-scissors/rock-paper-scissors/hello.txt
               tail -100 hello.txt
+              git status
