@@ -45,6 +45,5 @@ jobs:
               ls -a
               pwd
               cd ..
-              cat 'Its updated' > /home/runner/work/rock-paper-scissors/rock-paper-scissors/hello.txt
-              cd /home/runner/work/rock-paper-scissors/rock-paper-scissors/
+              cat > /home/runner/work/rock-paper-scissors/rock-paper-scissors/hello.txt
               tail -100 hello.txt
