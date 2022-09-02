@@ -48,12 +48,18 @@ jobs:
               cat > /home/runner/work/rock-paper-scissors/rock-paper-scissors/hello.txt
               tail -100 hello.txt
               git status
-              git config --local user.name "Monikrishna2288"
-              git add /home/runner/work/rock-paper-scissors/rock-paper-scissors/hello.txt
-              git commit -m "Updating the repository GitHub html pages in the docs folder
+              #git config --local user.name "Monikrishna2288"
+              #git add /home/runner/work/rock-paper-scissors/rock-paper-scissors/hello.txt
+              #git commit -m "Updating the repository GitHub html pages in the docs folder
               
-      - name: Push changes # push the output folder to your repo
-        uses: ad-m/github-push-action@master
-        with: 
-              github_token: ${{ secrets.GITHUB_TOKEN }}
-              force: true
+              git config --global user.name 'Monikrishna2288'
+              git config --global user.email 'rayalamonikrishna@gmail.com'
+              git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+              git commit
+              git push
+              
+      #- name: Push changes # push the output folder to your repo
+       # uses: ad-m/github-push-action@master
+        #with: 
+         #     github_token: ${{ secrets.GITHUB_TOKEN }}
+          #    force: true
