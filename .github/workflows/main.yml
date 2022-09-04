@@ -46,8 +46,7 @@ jobs:
               pwd
               cd ..
               cat /home/runner/work/rock-paper-scissors/rock-paper-scissors/pom.xml > /home/runner/work/rock-paper-scissors/rock-paper-scissors/hello.txt
-              tail -100 hello.txt
-              git status
+              
               #git config --local user.name "Monikrishna2288"
               #git add /home/runner/work/rock-paper-scissors/rock-paper-scissors/hello.txt
               #git commit -m "Updating the repository GitHub html pages in the docs folder
