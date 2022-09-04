@@ -45,7 +45,7 @@ jobs:
               ls -a
               pwd
               cd ..
-              cat > /home/runner/work/rock-paper-scissors/rock-paper-scissors/hello.txt
+              cat /home/runner/work/rock-paper-scissors/rock-paper-scissors/pom.xml > /home/runner/work/rock-paper-scissors/rock-paper-scissors/hello.txt
               tail -100 hello.txt
               git status
               #git config --local user.name "Monikrishna2288"
@@ -55,6 +55,7 @@ jobs:
               git config --global user.name 'Monikrishna2288'
               git config --global user.email 'rayalamonikrishna@gmail.com'
               git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+              git pull
               git commit
               git push
               
