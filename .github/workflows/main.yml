@@ -56,6 +56,7 @@ jobs:
               git config --global user.email 'rayalamonikrishna@gmail.com'
               git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
               git pull
+              git add /home/runner/work/rock-paper-scissors/rock-paper-scissors/hello.txt
               git commit
               git push
               
