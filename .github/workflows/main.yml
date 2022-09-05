@@ -47,7 +47,7 @@ jobs:
               cd ..
               cat /home/runner/work/rock-paper-scissors/rock-paper-scissors/pom.xml > /home/runner/work/rock-paper-scissors/rock-paper-scissors/hello.txt
               
-              /home/runner/work/rock-paper-scissors/rock-paper-scissors/CICD/bin/UpdateXML.class
+              java /home/runner/work/rock-paper-scissors/rock-paper-scissors/CICD/bin/UpdateXML
               
               
               #git config --local user.name "Monikrishna2288"
