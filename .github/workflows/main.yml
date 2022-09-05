@@ -46,8 +46,9 @@ jobs:
               pwd
               cd ..
               cat /home/runner/work/rock-paper-scissors/rock-paper-scissors/pom.xml > /home/runner/work/rock-paper-scissors/rock-paper-scissors/hello.txt
-              
-              java /home/runner/work/rock-paper-scissors/rock-paper-scissors/CICD/bin/UpdateXML
+              cd /home/runner/work/rock-paper-scissors/rock-paper-scissors/CICD/bin/
+              pwd
+              java UpdateXML
               
               
               #git config --local user.name "Monikrishna2288"
