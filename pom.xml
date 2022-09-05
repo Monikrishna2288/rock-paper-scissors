@@ -1,9 +1,9 @@
-<project>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><project>
 	<modelVersion>4.0.0</modelVersion>
 	<!-- interesting -->
 	<groupId>com.mcnz.rps</groupId>
 	<artifactId>roshambo</artifactId>
-	<version>0.1.1</version>
+	<version>0.1.2</version>
 	<packaging>jar</packaging>
 
 	<name>roshambo</name>
