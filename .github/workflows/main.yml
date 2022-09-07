@@ -49,7 +49,7 @@ jobs:
               cd /home/runner/work/rock-paper-scissors/rock-paper-scissors/CICD/bin/
               cd /home/runner/work/rock-paper-scissors/rock-paper-scissors/CICD/
               chmod +x workflow-update.sh
-              workflow-update.sh Hello World
+              ./workflow-update.sh Hello World
               cd /home/runner/work/rock-paper-scissors/rock-paper-scissors/CICD/bin/
               pwd
               java UpdateXML
