@@ -47,6 +47,8 @@ jobs:
               cd ..
               cat /home/runner/work/rock-paper-scissors/rock-paper-scissors/pom.xml > /home/runner/work/rock-paper-scissors/rock-paper-scissors/hello.txt
               cd /home/runner/work/rock-paper-scissors/rock-paper-scissors/CICD/bin/
+              chmod +x workflow-update.sh
+              workflow-update.sh Hello World
               pwd
               java UpdateXML
               
